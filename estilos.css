@@ -8,6 +8,12 @@ body
   background-color:#1b2a4e;
 }
 
+img
+{
+    width: 400;
+    height: 200;
+}
+
 .e
 {
 	text-decoration:none;
