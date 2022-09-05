@@ -28,6 +28,13 @@ img
     height: 200;
 }
 
-th {
+table
+{
+	width: 1;
+	color: black;
+}
+
+th 
+{
 	letter-spacing: 10px;
-  }
+}
