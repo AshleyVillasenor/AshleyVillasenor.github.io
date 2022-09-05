@@ -41,6 +41,10 @@ th
 	border: solid 10px;
 	color:black;
 }
+td
+{
+	border: black solid 10px;
+}
 
 p{
 	color:#fff;
