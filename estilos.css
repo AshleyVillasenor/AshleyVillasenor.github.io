@@ -30,11 +30,11 @@ img
 
 table
 {
-	width: 1;
-	color: black;
+	border: black, 1px;
 }
 
 th 
 {
 	letter-spacing: 10px;
+	border: 10px;
 }
