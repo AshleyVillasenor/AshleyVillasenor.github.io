@@ -28,3 +28,6 @@ img
     height: 200;
 }
 
+th {
+	letter-spacing: 10px;
+  }
