@@ -38,12 +38,12 @@ table
 th 
 {
 	letter-spacing: 10px;
-	border: solid 10px;
+	border: solid 1px;
 	color:black;
 }
 td
 {
-	border: black solid 10px;
+	border: black solid 1px;
 	letter-spacing: 10px;
 }
 
