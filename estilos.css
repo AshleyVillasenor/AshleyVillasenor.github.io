@@ -30,7 +30,7 @@ img
 
 table
 {
-	border: black 10px solid;
+	border: black solid 10px;
 	background-color:white;
 	
 }
@@ -38,7 +38,7 @@ table
 th 
 {
 	letter-spacing: 10px;
-	border: 10px solid;
+	border: solid 10px;
 	
 }
 
