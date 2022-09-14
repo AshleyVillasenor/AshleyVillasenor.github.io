@@ -1,0 +1,56 @@
+*
+{
+    font-family: Verdana;
+}
+
+h1
+{
+    background-color:#5CCAE6;
+    padding:10px;
+    margin-top:7px;
+    color:#fff;
+}
+
+h2
+{
+    color:aquamarine;
+}
+
+body 
+{  
+  background-color:#1b2a4e;
+}
+
+img
+{
+    width: 400;
+    height: 200;
+}
+
+table
+{
+	border: black solid 1px;
+	background-color:white;
+	color:black;
+	
+}
+
+th 
+{
+	letter-spacing: 10px;
+	border: solid 1px;
+	color:black;
+}
+td
+{
+	border: black solid 1px;
+	letter-spacing: 10px;
+}
+
+p{
+	color:#fff;
+}
+
+ul{
+	color:#fff;
+}
