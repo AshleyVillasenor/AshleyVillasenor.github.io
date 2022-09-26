@@ -20,7 +20,6 @@ h2, h3
 	align-items: center;
 }
 
-
 body 
 {  
   background-color:#1b2a4e;
@@ -34,26 +33,6 @@ img
 
 ul, li{
 	align-items: left;
-}
-
-table
-{
-	border: black solid 1px;
-	background-color:white;
-	color:black;
-	
-}
-
-th 
-{
-	letter-spacing: 10px;
-	border: solid 1px;
-	color:black;
-}
-td
-{
-	border: black solid 1px;
-	letter-spacing: 10px;
 }
 
 p{
