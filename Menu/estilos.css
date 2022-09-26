@@ -1,7 +1,6 @@
 *
 {
     font-family: Verdana;
-	text-align: center;
 }
 
 h1
@@ -34,7 +33,7 @@ img
 }
 
 ul, li{
-	align-items: center;
+	align-items: left;
 }
 
 table
