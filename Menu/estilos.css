@@ -29,6 +29,7 @@ img
 {
     width: 300;
     height: 200;
+	align-items: center;
 }
 
 ul, li{
