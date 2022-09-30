@@ -7,3 +7,15 @@ body
 {  
   background-color:#1b2a4e;
 }
+h1
+{
+    background-color:#5CCAE6;
+    padding:10px;
+    margin-top:7px;
+    color:#fff;
+}
+
+h2
+{
+    color:aquamarine;
+}
