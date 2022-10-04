@@ -5,7 +5,7 @@
         <title>Practica 3</title>
     </head>
     <header>
-        <h1>Formularioooooooooooooo</h1>     
+        <h1>Formularioooooooooooo</h1>     
     </header>
     <body>
         <form>
@@ -13,9 +13,10 @@
             <p>Campo de texto</p>
             <input type="text" name="texto" id="fname" onkeyup="mayusculas()">
             <br><br><p>Lista de seleccion</p>
-                <SELECT name="seleccion">
+                <SELECT name="seleccion" id="opcion">
                     <OPTION>Opcion 1</OPTION>
-                    <OPTION onchange="invalido()">Opcion 2</OPTION>
+                    <OPTION onselect="invalido()" onchange="invalido()">Opcion 2</OPTION>
+                    
                 </SELECT>
             <br><br>
             <p>Area de texto </p>
