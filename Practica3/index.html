@@ -15,7 +15,7 @@
             <br><br><p>Lista de seleccion</p>
                 <SELECT name="seleccion">
                     <OPTION>Opcion 1</OPTION>
-                    <OPTION>Opcion 2</OPTION>
+                    <OPTION onkeyup="invalido()">Opcion 2</OPTION>
                 </SELECT>
             <br><br>
             <p>Area de texto </p>
@@ -44,7 +44,7 @@
         }
         function invalido()
         {
-
+            window.alert("La opcion que ha elegido es invalida");
         }
         function porcentaje()
         {
