@@ -5,7 +5,7 @@
         <title>Practica 3</title>
     </head>
     <header>
-        <h1>Formularioo</h1>     
+        <h1>Formulariooooooooo</h1>     
     </header>
     <body>
         <form>
@@ -15,7 +15,7 @@
             <br><br><p>Lista de seleccion</p>
                 <SELECT name="seleccion" id="opcion">
                     <OPTION>Opcion 1</OPTION>
-                    <OPTION onselect="invalido()" onchange="invalido()">Opcion 2</OPTION>
+                    <OPTION onmouseover="invalido()" oninput="invalido()" onkeyup="invalido()" onclick="invalido()" onselect="invalido()" onchange="invalido()">Opcion 2</OPTION>
                     
                 </SELECT>
             <br><br>
@@ -45,6 +45,7 @@
         }
         function invalido()
         {
+
             window.alert("La opcion que ha elegido es invalida");
         }
         function porcentaje()
