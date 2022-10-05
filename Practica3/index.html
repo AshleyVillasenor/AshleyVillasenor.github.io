@@ -14,8 +14,8 @@
             <input type="text" name="texto" id="fname" onkeyup="mayusculas()">
             <br><br><p>Lista de seleccion</p>
                 <SELECT name="seleccion" id="opcion" onchange="invalido()">
-                    <OPTION>Opcion 1</OPTION>
-                    <OPTION>Opcion 2</OPTION>
+                    <OPTION value="1">Opcion 1</OPTION>
+                    <OPTION value="2">Opcion 2</OPTION>
                 </SELECT>
             <br><br>
             <p>Area de texto </p>
@@ -44,9 +44,12 @@
         }
         function invalido()
         {
-            // get
-            // if
-            alert("La opcion que ha elegido es invalida");
+            var x=document.getElementById("opcion");           
+            if(x.value=="2"){
+                alert("La opcion que ha elegido es invalida");
+                x.value = "1"; 
+            }
+           
         }
         function porcentaje() 
         {
