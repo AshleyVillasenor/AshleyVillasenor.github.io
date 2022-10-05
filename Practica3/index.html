@@ -5,7 +5,7 @@
         <title>Practica 3</title>
     </head>
     <header>
-        <h1>Formulariooooo</h1>     
+        <h1>Formulario</h1>     
     </header>
     <body>
         <form>
@@ -20,7 +20,7 @@
                 </SELECT>
             <br><br>
             <p>Area de texto </p>
-            <textarea name="area" id="texto" style="WIDTH:375px; HEIGHT:100px"; onkeyup="mayusculas()"></textarea>
+            <textarea name="area" id="texto" style="WIDTH:375px; HEIGHT:100px"; onkeyup="porcentaje()"></textarea>
             <br><br>
             <p> Agrupacion de botones </p>
             <button name="borrar" value="borrar" type="reset" style="font-weight:bold; width:180px; height:40px; 
@@ -48,14 +48,11 @@
             window.alert("La opcion que ha elegido es invalida");
             window.prompt("a");
         }
-        function porcentaje()
+        function porcentaje() 
         {
-            var x=document.getElementById("texto");
-            x.value="%";
-            if(x.value)
-            {
-                x.value="%";
-            }
-        }
+			var x=document.getElementById("texto");
+			x.value = x.value.replace(" ","%"); 
+		}
       </script>
+      
 </html>
