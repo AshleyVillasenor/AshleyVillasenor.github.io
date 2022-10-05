@@ -20,7 +20,7 @@
                 </SELECT>
             <br><br>
             <p>Area de texto </p>
-            <textarea name="area" style="WIDTH:375px; HEIGHT:100px;"></textarea>
+            <textarea name="area" id="texto" style="WIDTH:375px; HEIGHT:100px;"></textarea>
             <br><br>
             <p> Agrupacion de botones </p>
             <button name="borrar" value="borrar" type="reset" style="font-weight:bold; width:180px; height:40px; 
@@ -45,12 +45,16 @@
         }
         function invalido()
         {
-
             window.alert("La opcion que ha elegido es invalida");
         }
         function porcentaje()
         {
-
+            var x=document.getElementById("texto");
+            if(x.value==" ")
+            {
+                x.value="%";
+            }
+            
         }
       </script>
 </html>
