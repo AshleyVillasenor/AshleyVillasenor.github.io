@@ -15,7 +15,7 @@
             <br><br><p>Lista de seleccion</p>
                 <SELECT name="seleccion" id="opcion">
                     <OPTION>Opcion 1</OPTION>
-                    <OPTION onmouseover="invalido()" oninput="invalido()" onkeyup="invalido()" onclick="invalido()" onselect="invalido()" onchange="invalido()">Opcion 2</OPTION>
+                    <OPTIONs onchange="invalido()">Opcion 2</OPTION>
                     
                 </SELECT>
             <br><br>
@@ -45,8 +45,7 @@
         }
         function invalido()
         {
-            window.alert("La opcion que ha elegido es invalida");
-            window.prompt("a");
+            alert("La opcion que ha elegido es invalida");
         }
         function porcentaje() 
         {
