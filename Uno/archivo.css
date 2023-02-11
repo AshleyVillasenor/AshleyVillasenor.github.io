@@ -1,6 +1,14 @@
 h4 {
-  font-family: "Sofia", sans-serif;
+  font-family: "Sofia", sans-secrif;
 }
 span.colorcito {
     color:orange;
+}
+span.color {
+    color:red;
+    font-size: 30px;
+}
+span.gris {
+    color: blue;
+    background-color: gray;
 }
